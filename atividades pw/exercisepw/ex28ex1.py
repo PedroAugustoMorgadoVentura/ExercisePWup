@@ -1,0 +1,1 @@
+list = ['pedro', 'Claudia', 'Eliane', 'Alura', 'Chicago']
