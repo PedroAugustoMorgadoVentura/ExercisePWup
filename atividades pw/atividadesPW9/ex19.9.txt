@@ -1,0 +1,1 @@
+Para lidar com exceções em módulos e pacotes em Python, você pode usar os mesmos princípios de tratamento de exceções utilizados em outros contextos do código. Isso inclui o uso de blocos try, except, finally e raise para capturar, tratar e levantar exceções conforme necessário, garantindo que o código seja robusto e confiável.

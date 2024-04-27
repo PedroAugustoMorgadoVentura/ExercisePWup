@@ -1,0 +1,5 @@
+try:
+    # código onde você espera que uma exceção possa ocorrer
+except Exception as e:
+    # código a ser executado se qualquer exceção for levantada no bloco try
+    # 'e' contém informações sobre a exceção

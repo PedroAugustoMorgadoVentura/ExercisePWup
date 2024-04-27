@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>História para crianças</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color: darkblue;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin: 10px 0;
+        }
+        .escolha {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Aventura de Leo e seu cãozinho Balu</h1>
+
+    <!-- História inicial -->
+    <p>Era uma vez um menino chamado Leo, que tinha um amigo especial chamado Balu, um cãozinho muito brincalhão. Eles faziam tudo juntos: brincavam no parque, nadavam no lago, e até tinham seus próprios segredos.</p>
+
+    <img src="https://example.com/leo_balu.jpg" alt="Leo e Balu">
+
+    <p>Um dia, enquanto passeavam pelo parque, Leo e Balu encontraram um filhote de pássaro que havia caído de seu ninho. Eles decidiram cuidar do pássaro até que ele estivesse pronto para voar.</p>
+
+    <!-- Primeira escolha -->
+    <p class="escolha">Leo e Balu podem decidir levar o pássaro de volta ao ninho ou levá-lo para casa para cuidar dele. O que você acha que eles devem fazer?</p>
+    <button onclick="escolherCuidarPardal()">Levar para casa</button>
+    <button onclick="escolherDevolverPardal()">Levar de volta ao ninho</button>
+
+    <!-- Seção para exibir o progresso da história -->
+    <div id="historia"></div>
+
+    <script>
+        // Função para escolher cuidar do pássaro em casa
+        function escolherCuidarPardal() {
+            const historiaDiv = document.getElementById('historia');
+            historiaDiv.innerHTML = `
+                <p>Leo e Balu levaram o filhote de pássaro para casa. Eles passaram muitos dias cuidando dele, alimentando-o e ajudando-o a crescer. Logo, o filhote estava saudável e feliz.</p>
+                <p>Finalmente, o dia chegou em que o filhote de pássaro estava pronto para voar. Leo e Balu o levaram de volta ao parque, onde ele abriu suas asas e voou para o céu.</p>
+                <p>Leo e Balu sentiram alegria por terem ajudado o pássaro a crescer, mas também sentiram tristeza ao vê-lo partir.</p>
+                <img src="https://example.com/passaro_voando.jpg" alt="Pássaro voando">
+                <p class="escolha">Quando chegaram em casa, Balu parecia cansado. O que você acha que Leo deve fazer?</p>
+                <button onclick="escolherLevarBaluVeterinario()">Levar Balu ao veterinário</button>
+                <button onclick="escolherDescansarComBalu()">Descansar com Balu</button>
+            `;
+        }
+
+        // Função para escolher devolver o pássaro ao ninho
+        function escolherDevolverPardal() {
+            const historiaDiv = document.getElementById('historia');
+            historiaDiv.innerHTML = `
+                <p>Leo e Balu decidiram levar o filhote de pássaro de volta ao ninho. Eles cuidaram dele até que ele estivesse seguro em casa, com sua mãe.</p>
+                <p>Leo e Balu sentiram uma sensação de realização por terem ajudado o filhote a voltar para sua família.</p>
+                <p class="escolha">Quando chegaram em casa, Balu parecia cansado. O que você acha que Leo deve fazer?</p>
+                <button onclick="escolherLevarBaluVeterinario()">Levar Balu ao veterinário</button>
+                <button onclick="escolherDescansarComBalu()">Descansar com Balu</button>
+            `;
+        }
+
+        // Função para escolher levar Balu ao veterinário
+        function escolherLevarBaluVeterinario() {
+            const historiaDiv = document.getElementById('historia');
+            historiaDiv.innerHTML = `
+                <p>Leo decidiu levar Balu ao veterinário. O médico examinou Balu e disse que ele estava doente e precisava de tratamento.</p>
+                <p>Leo ficou preocupado, mas ficou feliz por ter levado Balu para ser tratado.</p>
+                <p>Com os cuidados do médico, Balu logo começou a melhorar. Leo continuou a cuidar de seu cãozinho com amor e atenção.</p>
+                <p>Leo e Balu tiveram muitos momentos felizes juntos depois disso.</p>
+                <p>FIM</p>
+            `;
+        }
+
+        // Função para escolher descansar com Balu
+        function escolherDescansarComBalu() {
+            const historiaDiv = document.getElementById('historia');
+            historiaDiv.innerHTML = `
+                <p>Leo decidiu descansar com Balu. Eles se deitaram juntos no sofá, e Leo deu carinho a Balu.</p>
+                <p>Mas, à noite, Leo percebeu que Balu estava muito fraco. Na manhã seguinte, Balu já não estava mais com Leo.</p>
+                <p>Leo chorou muito pela perda de seu melhor amigo. Ele sentia muita falta de Balu, mas lembrou-se dos momentos felizes que tiveram juntos.</p>
+                <p>FIM</p>
+            `;
+        }
+    </script>
+</body>
+</html>

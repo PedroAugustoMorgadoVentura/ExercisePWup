@@ -1,0 +1,1 @@
+É importante tratar exceções em um programa para garantir a robustez e a confiabilidade do software, lidando com situações inesperadas de forma controlada.

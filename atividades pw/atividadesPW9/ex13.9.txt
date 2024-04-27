@@ -1,0 +1,12 @@
+O encadeamento de exceções em Python, também conhecido como exceções aninhadas, refere-se à capacidade de uma exceção ser propagada através de uma série de chamadas de função ou blocos de código. Quando uma exceção é levantada em um bloco de código e não é tratada localmente, ela é propagada para blocos de código externos, procurando por tratamento em blocos try/except ao longo do caminho.
+
+O encadeamento de exceções permite que as exceções sejam capturadas e tratadas em diferentes níveis de abstração ou módulos do código, o que pode ser útil para depuração e manipulação de erros mais precisos. Isso também ajuda a preservar informações sobre o contexto em que a exceção ocorreu, fornecendo uma rastreabilidade mais detalhada.
+
+Quando uma exceção é propagada, ela pode ser capturada em diferentes níveis da pilha de chamadas de função. Cada nível da pilha pode adicionar informações adicionais à exceção antes de propagá-la para o próximo nível. Isso pode resultar em uma pilha de exceções (também conhecida como tracebacks) que contém informações sobre onde e como a exceção ocorreu.
+
+O encadeamento de exceções é uma característica poderosa em Python que ajuda os desenvolvedores a entender e lidar com erros de forma eficaz, permitindo uma gestão mais precisa e flexível das exceções em um programa.
+
+
+
+
+

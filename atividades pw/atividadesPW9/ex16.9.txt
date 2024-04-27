@@ -1,0 +1,1 @@
+Exceções assíncronas em Python referem-se a exceções que são levantadas em corrotinas assíncronas (funções assíncronas definidas com async def). Quando uma exceção ocorre em uma corrotina assíncrona, ela pode ser tratada de forma assíncrona, o que significa que a execução do código não é bloqueada enquanto a exceção é tratada.

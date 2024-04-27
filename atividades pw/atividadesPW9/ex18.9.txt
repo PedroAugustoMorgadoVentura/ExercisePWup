@@ -1,0 +1,1 @@
+É importante lidar com exceções em módulos e pacotes em Python para garantir a robustez e a confiabilidade do software. Tratar exceções em módulos e pacotes permite que os erros sejam capturados e tratados de forma adequada, evitando interrupções inesperadas no programa e fornecendo uma experiência de usuário mais consistente.

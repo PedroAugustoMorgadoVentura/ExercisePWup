@@ -1,0 +1,6 @@
+Um exemplo comum de exceção em Python é a TypeError, que ocorre quando uma operação é realizada com um tipo de dado inadequado. Por exemplo, tentar somar um número com uma string.
+
+
+
+
+
